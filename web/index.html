@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms for units of measurement</title>
+</head>
+<body>
+<h1>Przelicznik metryczny</h1>
+<br>
+<form method="post" action="LengthServlet">
+    <input type="text" name="meters" placeholder="metry"><br>
+    <input type="text" name="centimeters" placeholder="centymetry"><br>
+    <input type="text" name="millimeters" placeholder="milimetry"><br>
+    <input type="submit" value="convert">
+</form>
+<br>
+<h1>Przelicznik wag</h1>
+<form method="post" action="WeightServlet">
+    <input type="text" name="kilograms" placeholder="kilogramy"><br>
+    <input type="text" name="grams" placeholder="gramy"><br>
+    <input type="text" name="milligrams" placeholder="miligramy"><br>
+    <input type="submit" value="convert">
+</form>
+</body>
+</html>
